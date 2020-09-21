@@ -89,15 +89,23 @@ nav li { display: inline-block; width: 100px; padding: 17px 17px 17px 0; }
 
 .content { grid-column-start: content-left; grid-column-end: content-right; grid-row-start: content-top; grid-row-end: content-bottom; background-color: #2d2d2d; min-height: calc( 100vh - 125px); border-radius: 10px 10px 0 0; padding: 25px 50px; color: white; line-height: 1.5rem; font-size: .9rem; }
 
+.content span.img-caption.set-position.set-left { display: inline-block; position: relative; float: left; margin-right: .5rem; }
+
+.content span.img-caption.set-position.set-left img { display: block; float: left; clear: both; }
+
+.content span.img-caption.set-position.set-left span { position: relative; display: block; width: 100%; float: left; clear: both; padding: 0; margin: 0; color: #ff7300; font-size: .75rem; }
+
+.content span.img-caption span { position: relative; display: block; text-align: center; padding: .25rem .25rem 0 .25rem; border-radius: .25rem; color: #ff7300; background-color: #242424; }
+
 .content img { display: block; margin: 0 auto; max-width: 80px; height: auto; transition: max-width .2s linear; }
 
 .content img:hover { max-width: 100%; height: auto; }
 
 .content img.wide { height: auto; width: 100%; max-width: 100%; padding: .5rem 0; }
 
-.content img.set-right { display: inline-block; float: right; margin: 10px 0 10px 10px; padding-bottom: 10px; border-bottom: 1px solid #7db5ff; }
+.content img.set-right { display: inline-block; float: right; margin: 10px 0 10px 10px; padding-bottom: 10px; }
 
-.content img.set-left { display: inline-block; float: left; margin: 10px 10px 10px 0; padding-bottom: 10px; border-bottom: 1px solid #7db5ff; }
+.content img.set-left { display: inline-block; float: left; }
 
 .content img.mask-middle { transition: clip-path .5s linear, margin .5s linear, transform .5s linear; max-width: 100%; height: auto; transform: translateY(-40%); margin-bottom: -40%; clip-path: inset(40% 0% 40% 0% round 5px); }
 
