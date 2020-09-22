@@ -17,6 +17,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* self-responsive styles: start   */
 html { font-family: "Roboto", sans-serif; background-color: #414141; }
 
+iframe { width: 100%; border-radius: .5rem; }
+
 .mobile-only { display: none; }
 
 .responsive-video { position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; padding-top: 30px; height: 0; overflow: hidden; }
