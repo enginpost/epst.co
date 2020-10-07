@@ -49,7 +49,7 @@ em { font-style: italic; }
 
 .archive-month { display: block; margin-top: 1rem; background-color: #727272; padding: .25rem; text-align: center; font-size: 1rem; font-weight: bold; border-radius: .25rem; color: #ffe900; }
 
-@keyframes background-home { from { background-color: rgba(54, 53, 53, 0); }
+@keyframes background-home { from { background-color: rgba(84, 184, 100, 0); }
   to { background-color: #363535; } }
 
 nav { grid-column-start: content-left; grid-column-end: sidebar-right; grid-row-start: nav-top; grid-row-end: nav-bottom; text-transform: uppercase; color: #ffe900; font-weight: bold; }
@@ -139,11 +139,11 @@ nav li { display: inline-block; width: 100px; padding: 17px 17px 17px 0; }
 
 .content .home-posts { margin-top: 2rem; }
 
-.content .home-posts a { display: block; border-width: 0; border-radius: .2rem; padding: 1rem .5rem; text-decoration: none; color: #7db5ff; margin-bottom: 1.5rem; background-color: rgba(54, 53, 53, 0); transition: background-color .5s linear; }
+.content .home-posts a { display: block; border-width: 0; border-radius: .2rem; padding: 1rem .5rem; text-decoration: none; color: #7db5ff; margin-bottom: 1.5rem; background-color: rgba(84, 184, 100, 0); transition: background-color .5s linear; }
 
 .content .home-posts a:hover { background-color: #363535; /* box-shadow: inset 0px 0px 5px 0px #000; */ }
 
-.content .home-posts .quote { margin: 3rem 0; border-radius: 1rem; display: block; background-color: #373d46; padding: 2rem; font-size: 1.25rem; line-height: 1.75rem; background-image: url(/assets/images/quote.png); background-repeat: no-repeat; background-position: right; font-style: italic; }
+.content .home-posts .quote { margin: 3rem 0; border-radius: 1rem; display: block; background-color: rgba(55, 61, 70, 0.5); padding: 2rem; font-size: 1.25rem; line-height: 1.75rem; background-image: url(/assets/images/quote.png); background-repeat: no-repeat; background-position: right; font-style: italic; }
 
 .content .home-posts .quote a { display: inline; }
 
