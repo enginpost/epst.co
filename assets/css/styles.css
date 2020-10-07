@@ -143,6 +143,14 @@ nav li { display: inline-block; width: 100px; padding: 17px 17px 17px 0; }
 
 .content .home-posts a:hover { background-color: #363535; /* box-shadow: inset 0px 0px 5px 0px #000; */ }
 
+.content .home-posts .quote { margin: 3rem 0; border-radius: 1rem; display: block; background-color: #373d46; padding: 2rem; font-size: 1.25rem; line-height: 1.75rem; background-image: url(/assets/images/quote.png); background-repeat: no-repeat; background-position: right; font-style: italic; }
+
+.content .home-posts .quote a { display: inline; }
+
+.content .home-posts .quote .author { font-style: normal; font-size: 1rem; }
+
+.content .home-posts .quote .info { font-style: normal; display: block; font-size: .8rem; padding-left: .15rem; }
+
 .content .home-post-date { display: block; }
 
 .content .home-excerpt { font-size: 1rem; }
